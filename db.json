@@ -1,0 +1,25 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "What to do When I'm Gone",
+      "author": "Suzy HOPKINS & Hallie BATEMAN",
+      "image": "",
+      "favorite": true
+    },
+    {
+      "id": 2,
+      "name": "What You Learn In A LifeTime",
+      "author": "Heike FALLER & Valerio VIDALI",
+      "image": "",
+      "favorite": true
+    },
+    {
+      "id": 3,
+      "name": "Social Psychology",
+      "author": "David MYERS",
+      "image": "",
+      "favorite": false
+    }
+  ]
+}
