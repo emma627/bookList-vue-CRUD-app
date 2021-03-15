@@ -1,24 +1,11 @@
-# vue-books-to-read
+To run this APP:
+1.npm install
+2.npm run backend
+3.npm run serve
 
-## Project setup
-```
-npm install
-```
+Using json server to stock the data,
+An CRUD application(Vue.js)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
