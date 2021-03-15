@@ -1,4 +1,4 @@
-To run this APP:
+--To run this APP:
 
 1.npm install
 
@@ -6,7 +6,7 @@ To run this APP:
 
 3.npm run serve
 
-Using json server to stock the data,
+--Using json server to stock the data,
 
 An CRUD application(Vue.js)
 
