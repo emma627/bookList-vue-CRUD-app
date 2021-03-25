@@ -32,17 +32,17 @@ export default {
       this.showAddBook = !this.showAddBook;
     },
     async fetchBooks() {
-      const res = await fetch("http://localhost:5000/books");
+      const res = await fetch("https://my-books-list.netlify.app/books");
       const data = await res.json();
       return data;
     },
     async fetchBook(id) {
-      const res = await fetch(`http://localhost:5000/books/${id}`);
+      const res = await fetch(`https://my-books-list.netlify.app/${id}`);
       const data = await res.json();
       return data;
     },
     async addNewBook(newBook) {
-      const res = await fetch("http://localhost:5000/books", {
+      const res = await fetch("https://my-books-list.netlify.app", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
@@ -54,7 +54,7 @@ export default {
     },
     async deleteBook(id) {
       if (confirm("Are you sure?")) {
-        const res = await fetch(`http://localhost:5000/books/${id}`, {
+        const res = await fetch(`https://my-books-list.netlify.app/${id}`, {
           method: "DELETE",
         });
 
@@ -69,7 +69,7 @@ export default {
         ...bookToToggle,
         favorite: !bookToToggle.favorite
       };
-      const res = await fetch(`http://localhost:5000/books/${id}`, {
+      const res = await fetch(`https://my-books-list.netlify.app/${id}`, {
         method: "PUT",
         headers: { "Content-type": "application/json" },
         body: JSON.stringify(updateFavorite),
