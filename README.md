@@ -7,9 +7,9 @@ VUE CRUD application
 
 To run this APP:
 
-1.git clone https://github.com/emma627/vue-book-list-app.git
+1.git clone https://github.com/emma627/bookList-vue-CRUD-app.git
 
-2.cd vue-bookList-CRUD-app
+2.cd bookList-vue-CRUD-app
 
 3.npm install
 
